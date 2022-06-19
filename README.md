@@ -1,2 +1,2 @@
-# pets-r-us
+# Pets-R-Us
 Repository for Pets-R-Us project
