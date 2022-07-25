@@ -9,18 +9,33 @@
 * ===========================================
 */
 
-var express = require("express");
-var app = express()
+const express = require("express");
+const path = require("path");
+const app = express()
+
+app.engine(".html", require("ejs").__express);
+
+app.set("views", path.join(__dirname, "views"));
+app.set("view engine", "html");
+
+app.use(express.static(path.join(__dirname, "public")));
+
+const PORT = 3000 || process.env.PORT;
 
 // Route to the pets-r-us landing page
-app.get("/index", function(request, response) {
-    response.send("Welcome to the Pets-R-Us homepage!");
+app.get("/", (req, res) => { 
+    res.render("index", {
+        title: "Home",
+        message: "Welcome to the Pets-R-Us hompage!"
+    })
 });
 
-
 // Route to the grooming page
-app.get("/grooming", function(request, response) {
-    response.send("Welcome to the Pets-R-Us grooming page.");
+app.get("/grooming", (req, res) => { 
+    res.render("grooming", {
+        title: "Grooming",
+        message: "Welcome to the Pets-R-Us grooming page!"
+    })
 });
 
 // Error if page requested in not found

@@ -1,0 +1,202 @@
+.top-container {
+  background-color: whitesmoke;
+  background-size: contain;
+}
+
+.topnav {
+  font-family: Oxygen;
+  position: relative;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #9DF0B4;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #00DEA7;
+  color: white;
+}
+
+.top-image {
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Comfortaa;
+  font-size: 100px;
+  color: black;
+  text-shadow: 2px 2px 8px whitesmoke;
+}
+
+.company-info {
+  margin: auto;
+  background-color: white;
+  font-family: Oxygen;
+  text-align: center;
+  margin-top: 15px;
+  width: 300px;
+  box-shadow: 5px 5px 5px 5px lightgray;
+  padding: 15px;
+  background-color: whitesmoke;
+}
+
+.pic-row {
+  padding-top: 20px;
+  display: flex;
+}
+
+.pic-column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+#container {
+  font-family: Oxygen;
+  background-color: whitesmoke;
+  margin-top: 50px;
+  width: 500px;
+}
+
+.card-title {
+  font-size: 40px;
+}
+
+.grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+  flex-basis: 50%;
+  text-align: center;
+  list-style: none;
+  font-family: Oxygen;
+}
+
+.card {
+  padding: 50px;
+}
+
+.dog-of-the-week {
+  font-family: Oxygen;
+  margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
+  text-align: center;
+  background-color: whitesmoke;
+  box-shadow: 5px 5px 5px 5px lightgray;
+}
+
+.testimonials {
+  font-family: Oxygen;
+  margin: auto;
+  width: 50%;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.testimonials h4 {
+  font-size: 40px;
+}
+
+.contact-us {
+  font-family: Oxygen;
+  margin: auto;
+  width: 50%;
+  margin-top: 30px;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+.contact-us h4 {
+  font-size: 40px;
+}
+
+h2.center-text {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Comfortaa;
+  font-size: 100px;
+  color: #00DEA7;
+  text-shadow: 2px 2px 8px whitesmoke;
+}
+
+.container {
+  box-sizing: border-box;
+}
+
+.card-column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.card-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

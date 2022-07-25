@@ -9,3 +9,149 @@
 ! ========================================
 -->
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pets-R-Us: Home</title>
+    <link href="/Users/pat/Desktop/buwebdev/web-340/pets-r-us/public/styles/global.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Source+Sans+Pro:wght@200;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="top-container">
+<!-- Top navigation -->
+<div class="topnav">
+
+    <!-- Centered link -->
+    <div class="topnav-centered">
+      <a href="#login">Login</a>
+    </div>
+  
+   <!-- Left-aligned links (default) -->
+    <a href="#home" class="active">Home</a>
+    <a href="#boarding">Boarding</a>
+    <a href="/Users/pat/Desktop/buwebdev/web-340/pets-r-us/views/grooming.html">Grooming</a>
+    <a href="#training">Training</a>
+  
+    <!-- Right-aligned links -->
+    <div class="topnav-right">
+      <a href="#appointment">Book Appointment</a>
+      <a href="#registration">Registration</a>
+    </div>
+  
+  </div>
+    <hr />
+
+    <div class="top-image">
+    <img src="/Users/pat/Desktop/buwebdev/web-340/pets-r-us/public/images/dog-hair-combing.jpg" 
+        alt="Dog getting groomed">
+        <div class="center-text"><b>Pets-r-Us</b></div>
+    </div>
+</div>
+
+    <div class="company-info">
+    <h2>Company Info:</h2>
+    <p>
+        We are your dog's second best friend at Pets-R-Us. As the area's hotspot for 
+        pets, we offer a variety of services. Your pet's needs are our main focus with a 
+        safe, clean, and friendly environment. Feel free to contact us with any of your 
+        questions. We would love to talk to you.
+    </p>
+    </div> 
+
+    <div class="pic-row">
+        <div class="pic-column">
+            <img src="/Users/pat/Desktop/buwebdev/web-340/pets-r-us/public/images/schnauzer-dog.jpg" 
+                alt="Schnauzer dog" width="200" height="200">
+        </div>
+        <div class="pic-column">
+            <img src="/Users/pat/Desktop/buwebdev/web-340/pets-r-us/public/images/chocolate-lab.jpg"
+                alt="Chocolate lab" width="200" height="200">
+        </div>
+        <div class="pic-column">
+            <img src="/Users/pat/Desktop/buwebdev/web-340/pets-r-us/public/images/small-dog-1.jpg"
+                alt="Small dog" width="200" height="200">
+        </div>
+    </div>
+
+        <ul class="grid">
+            <li>
+                <div class="card-title">Store Hours:</div>
+                    <p>Monday 8:00 AM - 8:00 PM</p>
+                    <p>Tuesday 8:00 AM - 8:00 PM</p>
+                    <p>Wednesday 8:00 AM - 8:00 PM</p>
+                    <p>Thursday 8:00 AM - 9:00 PM</p>
+                    <p>Friday 8:00 AM - 8:00 PM</p>
+                    <p>Saturay 8:00 AM - 5:00 PM</p>
+                    <p>Sunday CLOSED</p>
+            </li>
+
+
+            <li class="left-align">
+                <div class="card">
+                    <div class="card-title">Store Location:</div>
+                    <p>Pets-R-Us</p>
+                    <p>1111 University Ave</p>
+                    <p>Des Moines, IA 50266</p>
+                </div>
+            </li>
+        </ul>
+
+        <div class="dog-of-the-week">
+            <div class="card-title">Dog of the Week:</div>
+            <p><b>Name: </b>Bingo</p>
+            <p><b>Breed: </b>Boxer</p>
+            <p><b>Age: </b>2 Years</p>
+            <p><b>Owner(s): </b>Doug & Mary Hilton</p>
+        </div>
+
+        <div class="testimonials">
+            <h4>Customer Testimonials</h4>
+            <p> &#9733 &#9733 &#9733 &#9733 &#9733</p>
+            <p>We just discovered Pets-R-Us by accident, I'm so glad we did.
+                This is now our go to place when the dog needs a groom.
+            </p>
+            <p>- Jill Smith</p>
+            <p> &#9733 &#9733 &#9733 &#9733 &#9733</p>
+            <p>The service you will find at Pets-R-Us is top notch. They are
+                on another level when it comes to the care of your pet. Thank
+                you guys for all that you do.
+            </p>
+            <p>- Hector Norris</p>
+            <p> &#9733 &#9733 &#9733 &#9733 &#9733</p>
+            <p>If you are looking for a place to board your pet while you are 
+                away, look no further than Pets-R-Us. We have boarded Spot, our 
+                dalmation three times and the employees take care of him as if he 
+                was their own.
+            </p>
+            <p>- Keith & Dawn Rodgers</p>
+            <p> &#9733 &#9733 &#9733 &#9733 &#9733</p>
+        </div>
+
+        <div class="contact-us">
+            <h4>Contact Us</h4>
+            <p>We welcome your feedback, both positive and negative. If you have someting 
+                you want us to know, please, drop us a line and let us know. Just want to say
+                hi, you can do that too. Looking for an answer to your question? We want to 
+                hear it. We look forward to hearing from you soon!
+            </p>
+            
+            <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name..">
+            
+            <label for="feedback">Feedback</label>
+            <textarea id="feedback" name="feedback" placeholder="Write something.." style="height: 200px;"></textarea>
+
+            <input type="submit" value="Submit">
+            </form>
+        </div>
+
+</body>
+</html>
